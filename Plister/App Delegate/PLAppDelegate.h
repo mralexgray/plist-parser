@@ -7,11 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "PSObject.h"
 
-@interface PLAppDelegate : NSObject <NSApplicationDelegate>
+@interface PLAppDelegate : PSObject <NSApplicationDelegate>
 
-@property (strong) NSString *str, *elementName;
-@property (strong) NSMutableString *strEdits, *output;
+
 @property (assign) IBOutlet NSWindow *window;
-@property int numIndents;
 @end

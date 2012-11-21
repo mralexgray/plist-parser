@@ -11,6 +11,10 @@
 @interface NSObject (ClassName)
 
 - (NSString *)className;
+- (int)isContainerClass;
+- (int)isArray;
+- (int)isDictionary;
+
 - (NSMutableArray *)properties;
 - (NSMutableArray *)methods;
 - (NSMutableArray *)ivars;

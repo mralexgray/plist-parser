@@ -7,30 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D273494165D2B78001DE6C4 /* PSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273461165D2B78001DE6C4 /* PSTimer.m */; };
+		7D273495165D2B78001DE6C4 /* PSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273461165D2B78001DE6C4 /* PSTimer.m */; };
+		7D273496165D2B78001DE6C4 /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273464165D2B78001DE6C4 /* PLAppDelegate.m */; };
+		7D273497165D2B78001DE6C4 /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273464165D2B78001DE6C4 /* PLAppDelegate.m */; };
+		7D273498165D2B78001DE6C4 /* PSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273468165D2B78001DE6C4 /* PSArrayAdditions.m */; };
+		7D273499165D2B78001DE6C4 /* PSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273468165D2B78001DE6C4 /* PSArrayAdditions.m */; };
+		7D27349A165D2B78001DE6C4 /* PSDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27346B165D2B78001DE6C4 /* PSDictionaryAdditions.m */; };
+		7D27349B165D2B78001DE6C4 /* PSDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27346B165D2B78001DE6C4 /* PSDictionaryAdditions.m */; };
+		7D27349C165D2B78001DE6C4 /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27346E165D2B78001DE6C4 /* NSObject+ClassName.m */; };
+		7D27349D165D2B78001DE6C4 /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27346E165D2B78001DE6C4 /* NSObject+ClassName.m */; };
+		7D27349E165D2B78001DE6C4 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273471165D2B78001DE6C4 /* NSString+MD5Addition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7D27349F165D2B78001DE6C4 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273471165D2B78001DE6C4 /* NSString+MD5Addition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7D2734A0165D2B78001DE6C4 /* PSStringContains.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273473165D2B78001DE6C4 /* PSStringContains.m */; };
+		7D2734A1165D2B78001DE6C4 /* PSStringContains.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273473165D2B78001DE6C4 /* PSStringContains.m */; };
+		7D2734A2165D2B78001DE6C4 /* PSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273479165D2B78001DE6C4 /* PSLogger.m */; };
+		7D2734A3165D2B78001DE6C4 /* PSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273479165D2B78001DE6C4 /* PSLogger.m */; };
+		7D2734A4165D2B78001DE6C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D27347C165D2B78001DE6C4 /* Credits.rtf */; };
+		7D2734A5165D2B78001DE6C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D27347C165D2B78001DE6C4 /* Credits.rtf */; };
+		7D2734A6165D2B78001DE6C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D27347E165D2B78001DE6C4 /* InfoPlist.strings */; };
+		7D2734A7165D2B78001DE6C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D27347E165D2B78001DE6C4 /* InfoPlist.strings */; };
+		7D2734A8165D2B78001DE6C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D273480165D2B78001DE6C4 /* MainMenu.xib */; };
+		7D2734A9165D2B78001DE6C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D273480165D2B78001DE6C4 /* MainMenu.xib */; };
+		7D2734AA165D2B78001DE6C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273482165D2B78001DE6C4 /* main.m */; };
+		7D2734AB165D2B78001DE6C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273482165D2B78001DE6C4 /* main.m */; };
+		7D2734AC165D2B78001DE6C4 /* Plister-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D273483165D2B78001DE6C4 /* Plister-Info.plist */; };
+		7D2734AD165D2B78001DE6C4 /* Plister-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D273483165D2B78001DE6C4 /* Plister-Info.plist */; };
+		7D2734AE165D2B78001DE6C4 /* PSParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273487165D2B78001DE6C4 /* PSParseManager.m */; };
+		7D2734AF165D2B78001DE6C4 /* PSParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273487165D2B78001DE6C4 /* PSParseManager.m */; };
+		7D2734B0165D2B78001DE6C4 /* FiR3FiParseMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27348A165D2B78001DE6C4 /* FiR3FiParseMaster.m */; };
+		7D2734B1165D2B78001DE6C4 /* FiR3FiParseMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27348A165D2B78001DE6C4 /* FiR3FiParseMaster.m */; };
+		7D2734B2165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27348D165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m */; };
+		7D2734B3165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27348D165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m */; };
+		7D2734B4165D2B78001DE6C4 /* PSParseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273490165D2B78001DE6C4 /* PSParseObject.m */; };
+		7D2734B5165D2B78001DE6C4 /* PSParseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273490165D2B78001DE6C4 /* PSParseObject.m */; };
+		7D2734B6165D2B78001DE6C4 /* PSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273493165D2B78001DE6C4 /* PSObject.m */; };
+		7D2734B7165D2B78001DE6C4 /* PSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273493165D2B78001DE6C4 /* PSObject.m */; };
 		7DA649581656BE40004D54C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA649571656BE40004D54C1 /* Cocoa.framework */; };
-		7DA649621656BE40004D54C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA649601656BE40004D54C1 /* InfoPlist.strings */; };
-		7DA649641656BE40004D54C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649631656BE40004D54C1 /* main.m */; };
-		7DA649681656BE40004D54C1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7DA649661656BE40004D54C1 /* Credits.rtf */; };
-		7DA6496B1656BE40004D54C1 /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6496A1656BE40004D54C1 /* PLAppDelegate.m */; };
-		7DA6496E1656BE40004D54C1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6496C1656BE40004D54C1 /* MainMenu.xib */; };
 		7DA649761656BE40004D54C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA649751656BE40004D54C1 /* SenTestingKit.framework */; };
 		7DA649771656BE40004D54C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA649571656BE40004D54C1 /* Cocoa.framework */; };
 		7DA6497F1656BE40004D54C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6497D1656BE40004D54C1 /* InfoPlist.strings */; };
 		7DA649821656BE40004D54C1 /* PlisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649811656BE40004D54C1 /* PlisterTests.m */; };
-		7DA649931656D6E2004D54C1 /* PSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649921656D6E2004D54C1 /* PSTimer.m */; };
-		7DA649941656D6E2004D54C1 /* PSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649921656D6E2004D54C1 /* PSTimer.m */; };
-		7DA6499C1656DC0E004D54C1 /* PSStringContains.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649991656DC0E004D54C1 /* PSStringContains.m */; };
-		7DA6499D1656DC0E004D54C1 /* PSStringContains.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649991656DC0E004D54C1 /* PSStringContains.m */; };
-		7DA649A11656E186004D54C1 /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649A01656E186004D54C1 /* NSObject+ClassName.m */; };
-		7DA649A21656E186004D54C1 /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649A01656E186004D54C1 /* NSObject+ClassName.m */; };
-		7DA649A91656E1B6004D54C1 /* FiR3FiParseMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649A51656E1B6004D54C1 /* FiR3FiParseMaster.m */; };
-		7DA649AA1656E1B6004D54C1 /* FiR3FiParseMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649A51656E1B6004D54C1 /* FiR3FiParseMaster.m */; };
-		7DA649AB1656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649A81656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.m */; };
-		7DA649AC1656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649A81656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.m */; };
-		7DA649B31656E1D9004D54C1 /* PSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649AF1656E1D9004D54C1 /* PSArrayAdditions.m */; };
-		7DA649B41656E1D9004D54C1 /* PSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649AF1656E1D9004D54C1 /* PSArrayAdditions.m */; };
-		7DA649B51656E1D9004D54C1 /* PSDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649B21656E1D9004D54C1 /* PSDictionaryAdditions.m */; };
-		7DA649B61656E1D9004D54C1 /* PSDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649B21656E1D9004D54C1 /* PSDictionaryAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,39 +61,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D273460165D2B78001DE6C4 /* PSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTimer.h; sourceTree = "<group>"; };
+		7D273461165D2B78001DE6C4 /* PSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTimer.m; sourceTree = "<group>"; };
+		7D273463165D2B78001DE6C4 /* PLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
+		7D273464165D2B78001DE6C4 /* PLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
+		7D273467165D2B78001DE6C4 /* PSArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSArrayAdditions.h; sourceTree = "<group>"; };
+		7D273468165D2B78001DE6C4 /* PSArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSArrayAdditions.m; sourceTree = "<group>"; };
+		7D27346A165D2B78001DE6C4 /* PSDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDictionaryAdditions.h; sourceTree = "<group>"; };
+		7D27346B165D2B78001DE6C4 /* PSDictionaryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDictionaryAdditions.m; sourceTree = "<group>"; };
+		7D27346D165D2B78001DE6C4 /* NSObject+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClassName.h"; sourceTree = "<group>"; };
+		7D27346E165D2B78001DE6C4 /* NSObject+ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ClassName.m"; sourceTree = "<group>"; };
+		7D273470165D2B78001DE6C4 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		7D273471165D2B78001DE6C4 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		7D273472165D2B78001DE6C4 /* PSStringContains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStringContains.h; sourceTree = "<group>"; };
+		7D273473165D2B78001DE6C4 /* PSStringContains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStringContains.m; sourceTree = "<group>"; };
+		7D273476165D2B78001DE6C4 /* PSColorLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSColorLogging.h; sourceTree = "<group>"; };
+		7D273478165D2B78001DE6C4 /* PSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogger.h; sourceTree = "<group>"; };
+		7D273479165D2B78001DE6C4 /* PSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLogger.m; sourceTree = "<group>"; };
+		7D27347A165D2B78001DE6C4 /* PSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLogging.h; sourceTree = "<group>"; };
+		7D27347D165D2B78001DE6C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7D27347F165D2B78001DE6C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D273481165D2B78001DE6C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7D273482165D2B78001DE6C4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D273483165D2B78001DE6C4 /* Plister-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Plister-Info.plist"; sourceTree = "<group>"; };
+		7D273484165D2B78001DE6C4 /* Plister-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Plister-Prefix.pch"; sourceTree = "<group>"; };
+		7D273486165D2B78001DE6C4 /* PSParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSParseManager.h; sourceTree = "<group>"; };
+		7D273487165D2B78001DE6C4 /* PSParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSParseManager.m; sourceTree = "<group>"; };
+		7D273489165D2B78001DE6C4 /* FiR3FiParseMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiR3FiParseMaster.h; sourceTree = "<group>"; };
+		7D27348A165D2B78001DE6C4 /* FiR3FiParseMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiR3FiParseMaster.m; sourceTree = "<group>"; };
+		7D27348C165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiR3FiOBJCReturnTypes.h; sourceTree = "<group>"; };
+		7D27348D165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiR3FiOBJCReturnTypes.m; sourceTree = "<group>"; };
+		7D27348F165D2B78001DE6C4 /* PSParseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSParseObject.h; sourceTree = "<group>"; };
+		7D273490165D2B78001DE6C4 /* PSParseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSParseObject.m; sourceTree = "<group>"; };
+		7D273492165D2B78001DE6C4 /* PSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSObject.h; sourceTree = "<group>"; };
+		7D273493165D2B78001DE6C4 /* PSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSObject.m; sourceTree = "<group>"; };
 		7DA649531656BE40004D54C1 /* Plister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA649571656BE40004D54C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7DA6495A1656BE40004D54C1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		7DA6495B1656BE40004D54C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7DA6495C1656BE40004D54C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7DA6495F1656BE40004D54C1 /* Plister-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Plister-Info.plist"; sourceTree = "<group>"; };
-		7DA649611656BE40004D54C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7DA649631656BE40004D54C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7DA649651656BE40004D54C1 /* Plister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plister-Prefix.pch"; sourceTree = "<group>"; };
-		7DA649671656BE40004D54C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		7DA649691656BE40004D54C1 /* PLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
-		7DA6496A1656BE40004D54C1 /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
-		7DA6496D1656BE40004D54C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7DA649741656BE40004D54C1 /* PlisterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlisterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA649751656BE40004D54C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7DA6497C1656BE40004D54C1 /* PlisterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlisterTests-Info.plist"; sourceTree = "<group>"; };
 		7DA6497E1656BE40004D54C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DA649801656BE40004D54C1 /* PlisterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlisterTests.h; sourceTree = "<group>"; };
 		7DA649811656BE40004D54C1 /* PlisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlisterTests.m; sourceTree = "<group>"; };
-		7DA649911656D6E2004D54C1 /* PSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTimer.h; sourceTree = "<group>"; };
-		7DA649921656D6E2004D54C1 /* PSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTimer.m; sourceTree = "<group>"; };
-		7DA649981656DC0E004D54C1 /* PSStringContains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStringContains.h; sourceTree = "<group>"; };
-		7DA649991656DC0E004D54C1 /* PSStringContains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStringContains.m; sourceTree = "<group>"; };
-		7DA6499F1656E186004D54C1 /* NSObject+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClassName.h"; sourceTree = "<group>"; };
-		7DA649A01656E186004D54C1 /* NSObject+ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ClassName.m"; sourceTree = "<group>"; };
-		7DA649A41656E1B6004D54C1 /* FiR3FiParseMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiR3FiParseMaster.h; sourceTree = "<group>"; };
-		7DA649A51656E1B6004D54C1 /* FiR3FiParseMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiR3FiParseMaster.m; sourceTree = "<group>"; };
-		7DA649A71656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiR3FiOBJCReturnTypes.h; sourceTree = "<group>"; };
-		7DA649A81656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiR3FiOBJCReturnTypes.m; sourceTree = "<group>"; };
-		7DA649AE1656E1D9004D54C1 /* PSArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSArrayAdditions.h; sourceTree = "<group>"; };
-		7DA649AF1656E1D9004D54C1 /* PSArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSArrayAdditions.m; sourceTree = "<group>"; };
-		7DA649B11656E1D9004D54C1 /* PSDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDictionaryAdditions.h; sourceTree = "<group>"; };
-		7DA649B21656E1D9004D54C1 /* PSDictionaryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDictionaryAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +129,179 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D27345E165D2B78001DE6C4 /* Plister */ = {
+			isa = PBXGroup;
+			children = (
+				7D27345F165D2B78001DE6C4 /* Absolute Timer */,
+				7D273462165D2B78001DE6C4 /* App Delegate */,
+				7D273465165D2B78001DE6C4 /* Categories */,
+				7D273474165D2B78001DE6C4 /* Logging */,
+				7D27347B165D2B78001DE6C4 /* Other Sources */,
+				7D273485165D2B78001DE6C4 /* ParseManager */,
+				7D273488165D2B78001DE6C4 /* ParseMaster */,
+				7D27348E165D2B78001DE6C4 /* ParseObject */,
+				7D273491165D2B78001DE6C4 /* PSObject */,
+			);
+			path = Plister;
+			sourceTree = "<group>";
+		};
+		7D27345F165D2B78001DE6C4 /* Absolute Timer */ = {
+			isa = PBXGroup;
+			children = (
+				7D273460165D2B78001DE6C4 /* PSTimer.h */,
+				7D273461165D2B78001DE6C4 /* PSTimer.m */,
+			);
+			path = "Absolute Timer";
+			sourceTree = "<group>";
+		};
+		7D273462165D2B78001DE6C4 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7D273463165D2B78001DE6C4 /* PLAppDelegate.h */,
+				7D273464165D2B78001DE6C4 /* PLAppDelegate.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		7D273465165D2B78001DE6C4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7D273466165D2B78001DE6C4 /* NSArray */,
+				7D273469165D2B78001DE6C4 /* NSDictionary */,
+				7D27346C165D2B78001DE6C4 /* NSObject */,
+				7D27346F165D2B78001DE6C4 /* NSString */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7D273466165D2B78001DE6C4 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				7D273467165D2B78001DE6C4 /* PSArrayAdditions.h */,
+				7D273468165D2B78001DE6C4 /* PSArrayAdditions.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		7D273469165D2B78001DE6C4 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				7D27346A165D2B78001DE6C4 /* PSDictionaryAdditions.h */,
+				7D27346B165D2B78001DE6C4 /* PSDictionaryAdditions.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		7D27346C165D2B78001DE6C4 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				7D27346D165D2B78001DE6C4 /* NSObject+ClassName.h */,
+				7D27346E165D2B78001DE6C4 /* NSObject+ClassName.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		7D27346F165D2B78001DE6C4 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				7D273470165D2B78001DE6C4 /* NSString+MD5Addition.h */,
+				7D273471165D2B78001DE6C4 /* NSString+MD5Addition.m */,
+				7D273472165D2B78001DE6C4 /* PSStringContains.h */,
+				7D273473165D2B78001DE6C4 /* PSStringContains.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		7D273474165D2B78001DE6C4 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				7D273475165D2B78001DE6C4 /* Colors */,
+				7D273477165D2B78001DE6C4 /* PSLogger */,
+				7D27347A165D2B78001DE6C4 /* PSLogging.h */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		7D273475165D2B78001DE6C4 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				7D273476165D2B78001DE6C4 /* PSColorLogging.h */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		7D273477165D2B78001DE6C4 /* PSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				7D273478165D2B78001DE6C4 /* PSLogger.h */,
+				7D273479165D2B78001DE6C4 /* PSLogger.m */,
+			);
+			path = PSLogger;
+			sourceTree = "<group>";
+		};
+		7D27347B165D2B78001DE6C4 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7D27347C165D2B78001DE6C4 /* Credits.rtf */,
+				7D27347E165D2B78001DE6C4 /* InfoPlist.strings */,
+				7D273480165D2B78001DE6C4 /* MainMenu.xib */,
+				7D273482165D2B78001DE6C4 /* main.m */,
+				7D273483165D2B78001DE6C4 /* Plister-Info.plist */,
+				7D273484165D2B78001DE6C4 /* Plister-Prefix.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		7D273485165D2B78001DE6C4 /* ParseManager */ = {
+			isa = PBXGroup;
+			children = (
+				7D273486165D2B78001DE6C4 /* PSParseManager.h */,
+				7D273487165D2B78001DE6C4 /* PSParseManager.m */,
+			);
+			path = ParseManager;
+			sourceTree = "<group>";
+		};
+		7D273488165D2B78001DE6C4 /* ParseMaster */ = {
+			isa = PBXGroup;
+			children = (
+				7D273489165D2B78001DE6C4 /* FiR3FiParseMaster.h */,
+				7D27348A165D2B78001DE6C4 /* FiR3FiParseMaster.m */,
+				7D27348B165D2B78001DE6C4 /* ReturnTypes */,
+			);
+			path = ParseMaster;
+			sourceTree = "<group>";
+		};
+		7D27348B165D2B78001DE6C4 /* ReturnTypes */ = {
+			isa = PBXGroup;
+			children = (
+				7D27348C165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.h */,
+				7D27348D165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m */,
+			);
+			path = ReturnTypes;
+			sourceTree = "<group>";
+		};
+		7D27348E165D2B78001DE6C4 /* ParseObject */ = {
+			isa = PBXGroup;
+			children = (
+				7D27348F165D2B78001DE6C4 /* PSParseObject.h */,
+				7D273490165D2B78001DE6C4 /* PSParseObject.m */,
+			);
+			path = ParseObject;
+			sourceTree = "<group>";
+		};
+		7D273491165D2B78001DE6C4 /* PSObject */ = {
+			isa = PBXGroup;
+			children = (
+				7D273492165D2B78001DE6C4 /* PSObject.h */,
+				7D273493165D2B78001DE6C4 /* PSObject.m */,
+			);
+			path = PSObject;
+			sourceTree = "<group>";
+		};
 		7DA649481656BE40004D54C1 = {
 			isa = PBXGroup;
 			children = (
-				7DA6495D1656BE40004D54C1 /* Plister */,
+				7D27345E165D2B78001DE6C4 /* Plister */,
 				7DA6497A1656BE40004D54C1 /* PlisterTests */,
 				7DA649561656BE40004D54C1 /* Frameworks */,
 				7DA649541656BE40004D54C1 /* Products */,
@@ -139,35 +337,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		7DA6495D1656BE40004D54C1 /* Plister */ = {
-			isa = PBXGroup;
-			children = (
-				7DA649AD1656E1D9004D54C1 /* NSArray */,
-				7DA649B01656E1D9004D54C1 /* NSDictionary */,
-				7DA649A31656E1B6004D54C1 /* ParseMaster */,
-				7DA6499E1656E186004D54C1 /* NSObject */,
-				7DA649951656DC0E004D54C1 /* NSString */,
-				7DA649901656D6E2004D54C1 /* Absolute Timer */,
-				7DA649691656BE40004D54C1 /* PLAppDelegate.h */,
-				7DA6496A1656BE40004D54C1 /* PLAppDelegate.m */,
-				7DA6496C1656BE40004D54C1 /* MainMenu.xib */,
-				7DA6495E1656BE40004D54C1 /* Supporting Files */,
-			);
-			path = Plister;
-			sourceTree = "<group>";
-		};
-		7DA6495E1656BE40004D54C1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7DA6495F1656BE40004D54C1 /* Plister-Info.plist */,
-				7DA649601656BE40004D54C1 /* InfoPlist.strings */,
-				7DA649631656BE40004D54C1 /* main.m */,
-				7DA649651656BE40004D54C1 /* Plister-Prefix.pch */,
-				7DA649661656BE40004D54C1 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		7DA6497A1656BE40004D54C1 /* PlisterTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,70 +354,6 @@
 				7DA6497D1656BE40004D54C1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7DA649901656D6E2004D54C1 /* Absolute Timer */ = {
-			isa = PBXGroup;
-			children = (
-				7DA649911656D6E2004D54C1 /* PSTimer.h */,
-				7DA649921656D6E2004D54C1 /* PSTimer.m */,
-			);
-			path = "Absolute Timer";
-			sourceTree = "<group>";
-		};
-		7DA649951656DC0E004D54C1 /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				7DA649981656DC0E004D54C1 /* PSStringContains.h */,
-				7DA649991656DC0E004D54C1 /* PSStringContains.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		7DA6499E1656E186004D54C1 /* NSObject */ = {
-			isa = PBXGroup;
-			children = (
-				7DA6499F1656E186004D54C1 /* NSObject+ClassName.h */,
-				7DA649A01656E186004D54C1 /* NSObject+ClassName.m */,
-			);
-			path = NSObject;
-			sourceTree = "<group>";
-		};
-		7DA649A31656E1B6004D54C1 /* ParseMaster */ = {
-			isa = PBXGroup;
-			children = (
-				7DA649A41656E1B6004D54C1 /* FiR3FiParseMaster.h */,
-				7DA649A51656E1B6004D54C1 /* FiR3FiParseMaster.m */,
-				7DA649A61656E1B6004D54C1 /* ReturnTypes */,
-			);
-			path = ParseMaster;
-			sourceTree = "<group>";
-		};
-		7DA649A61656E1B6004D54C1 /* ReturnTypes */ = {
-			isa = PBXGroup;
-			children = (
-				7DA649A71656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.h */,
-				7DA649A81656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.m */,
-			);
-			path = ReturnTypes;
-			sourceTree = "<group>";
-		};
-		7DA649AD1656E1D9004D54C1 /* NSArray */ = {
-			isa = PBXGroup;
-			children = (
-				7DA649AE1656E1D9004D54C1 /* PSArrayAdditions.h */,
-				7DA649AF1656E1D9004D54C1 /* PSArrayAdditions.m */,
-			);
-			path = NSArray;
-			sourceTree = "<group>";
-		};
-		7DA649B01656E1D9004D54C1 /* NSDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				7DA649B11656E1D9004D54C1 /* PSDictionaryAdditions.h */,
-				7DA649B21656E1D9004D54C1 /* PSDictionaryAdditions.m */,
-			);
-			path = NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,9 +428,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DA649621656BE40004D54C1 /* InfoPlist.strings in Resources */,
-				7DA649681656BE40004D54C1 /* Credits.rtf in Resources */,
-				7DA6496E1656BE40004D54C1 /* MainMenu.xib in Resources */,
+				7D2734A4165D2B78001DE6C4 /* Credits.rtf in Resources */,
+				7D2734A6165D2B78001DE6C4 /* InfoPlist.strings in Resources */,
+				7D2734A8165D2B78001DE6C4 /* MainMenu.xib in Resources */,
+				7D2734AC165D2B78001DE6C4 /* Plister-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +440,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA6497F1656BE40004D54C1 /* InfoPlist.strings in Resources */,
+				7D2734A5165D2B78001DE6C4 /* Credits.rtf in Resources */,
+				7D2734A7165D2B78001DE6C4 /* InfoPlist.strings in Resources */,
+				7D2734A9165D2B78001DE6C4 /* MainMenu.xib in Resources */,
+				7D2734AD165D2B78001DE6C4 /* Plister-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,15 +470,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DA649641656BE40004D54C1 /* main.m in Sources */,
-				7DA6496B1656BE40004D54C1 /* PLAppDelegate.m in Sources */,
-				7DA649931656D6E2004D54C1 /* PSTimer.m in Sources */,
-				7DA6499C1656DC0E004D54C1 /* PSStringContains.m in Sources */,
-				7DA649A11656E186004D54C1 /* NSObject+ClassName.m in Sources */,
-				7DA649A91656E1B6004D54C1 /* FiR3FiParseMaster.m in Sources */,
-				7DA649AB1656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.m in Sources */,
-				7DA649B31656E1D9004D54C1 /* PSArrayAdditions.m in Sources */,
-				7DA649B51656E1D9004D54C1 /* PSDictionaryAdditions.m in Sources */,
+				7D273494165D2B78001DE6C4 /* PSTimer.m in Sources */,
+				7D273496165D2B78001DE6C4 /* PLAppDelegate.m in Sources */,
+				7D273498165D2B78001DE6C4 /* PSArrayAdditions.m in Sources */,
+				7D27349A165D2B78001DE6C4 /* PSDictionaryAdditions.m in Sources */,
+				7D27349C165D2B78001DE6C4 /* NSObject+ClassName.m in Sources */,
+				7D27349E165D2B78001DE6C4 /* NSString+MD5Addition.m in Sources */,
+				7D2734A0165D2B78001DE6C4 /* PSStringContains.m in Sources */,
+				7D2734A2165D2B78001DE6C4 /* PSLogger.m in Sources */,
+				7D2734AA165D2B78001DE6C4 /* main.m in Sources */,
+				7D2734AE165D2B78001DE6C4 /* PSParseManager.m in Sources */,
+				7D2734B0165D2B78001DE6C4 /* FiR3FiParseMaster.m in Sources */,
+				7D2734B2165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m in Sources */,
+				7D2734B4165D2B78001DE6C4 /* PSParseObject.m in Sources */,
+				7D2734B6165D2B78001DE6C4 /* PSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,13 +492,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA649821656BE40004D54C1 /* PlisterTests.m in Sources */,
-				7DA649941656D6E2004D54C1 /* PSTimer.m in Sources */,
-				7DA6499D1656DC0E004D54C1 /* PSStringContains.m in Sources */,
-				7DA649A21656E186004D54C1 /* NSObject+ClassName.m in Sources */,
-				7DA649AA1656E1B6004D54C1 /* FiR3FiParseMaster.m in Sources */,
-				7DA649AC1656E1B6004D54C1 /* FiR3FiOBJCReturnTypes.m in Sources */,
-				7DA649B41656E1D9004D54C1 /* PSArrayAdditions.m in Sources */,
-				7DA649B61656E1D9004D54C1 /* PSDictionaryAdditions.m in Sources */,
+				7D273495165D2B78001DE6C4 /* PSTimer.m in Sources */,
+				7D273497165D2B78001DE6C4 /* PLAppDelegate.m in Sources */,
+				7D273499165D2B78001DE6C4 /* PSArrayAdditions.m in Sources */,
+				7D27349B165D2B78001DE6C4 /* PSDictionaryAdditions.m in Sources */,
+				7D27349D165D2B78001DE6C4 /* NSObject+ClassName.m in Sources */,
+				7D27349F165D2B78001DE6C4 /* NSString+MD5Addition.m in Sources */,
+				7D2734A1165D2B78001DE6C4 /* PSStringContains.m in Sources */,
+				7D2734A3165D2B78001DE6C4 /* PSLogger.m in Sources */,
+				7D2734AB165D2B78001DE6C4 /* main.m in Sources */,
+				7D2734AF165D2B78001DE6C4 /* PSParseManager.m in Sources */,
+				7D2734B1165D2B78001DE6C4 /* FiR3FiParseMaster.m in Sources */,
+				7D2734B3165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m in Sources */,
+				7D2734B5165D2B78001DE6C4 /* PSParseObject.m in Sources */,
+				7D2734B7165D2B78001DE6C4 /* PSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,26 +520,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DA649601656BE40004D54C1 /* InfoPlist.strings */ = {
+		7D27347C165D2B78001DE6C4 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7DA649611656BE40004D54C1 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7DA649661656BE40004D54C1 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DA649671656BE40004D54C1 /* en */,
+				7D27347D165D2B78001DE6C4 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		7DA6496C1656BE40004D54C1 /* MainMenu.xib */ = {
+		7D27347E165D2B78001DE6C4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7DA6496D1656BE40004D54C1 /* en */,
+				7D27347F165D2B78001DE6C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D273480165D2B78001DE6C4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D273481165D2B78001DE6C4 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -491,8 +613,14 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Plister/Plister-Prefix.pch";
-				INFOPLIST_FILE = "Plister/Plister-Info.plist";
+				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"PS_LOGGING=1",
+					"XCODE_COLORS=\"XcodeColors\"",
+				);
+				INFOPLIST_FILE = "Plister/Other Sources/Plister-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -503,8 +631,12 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Plister/Plister-Prefix.pch";
-				INFOPLIST_FILE = "Plister/Plister-Info.plist";
+				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PS_PROD_LOGGING=1",
+					"PS_LOGGING=1",
+				);
+				INFOPLIST_FILE = "Plister/Other Sources/Plister-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -559,6 +691,7 @@
 				7DA649871656BE40004D54C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DA649881656BE40004D54C1 /* Build configuration list for PBXNativeTarget "PlisterTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +700,7 @@
 				7DA6498A1656BE40004D54C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

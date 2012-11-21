@@ -8,10 +8,19 @@
 
 #import "FiR3FiParseMaster.h"
 #import "FiR3FiOBJCReturnTypes.h"
-//#import "PSLogging.h"
+#import "PSLogging.h"
+#define COLOR GRAY_BLUE
 
 @implementation FiR3FiParseMaster
 
+
+- (id)init {
+    
+    if ( self = [super init] ) {
+//        self.logColor = GRAY_BLUE;
+    }
+    return self;
+}
 
 - (BOOL)returnsPrimitive: (SEL)selector obj:(id)obj {
     
@@ -60,10 +69,12 @@
             *error = [NSError errorWithDomain:[[NSBundle mainBundle] bundleIdentifier]
                                         code:2
                                     userInfo: @{ NSLocalizedDescriptionKey : @"Data was NULL."} ];
-            NSLog(@"%@", [*error localizedDescription]);
+            
+            Log(@"%@", [*error localizedDescription] );
+            LogDebug(@"DoThis");
             return nil;
         }
-        NSLog(@"%@", @"Data was NULL.");
+        Log(@"%@", @"Data was NULL.");
         return nil;
     }
     
@@ -74,10 +85,10 @@
             *error = [NSError errorWithDomain:[[NSBundle mainBundle] bundleIdentifier]
                                         code:3
                                     userInfo: @{ NSLocalizedDescriptionKey : @"Data type was NULL."} ];
-            NSLog(@"%@", [*error localizedDescription]);
+            Log(@"%@", [*error localizedDescription]);
             return nil;
         }
-        NSLog(@"%@", @"Data type was NULL.");
+        Log(@"%@", @"Data type was NULL.");
         return nil;
 
     }

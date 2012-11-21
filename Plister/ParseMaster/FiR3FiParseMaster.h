@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "FiR3FiOBJCReturnTypes.h"
+#import "PSObject.h"
 
 
-
-@interface FiR3FiParseMaster : NSObject {
+@interface FiR3FiParseMaster : PSObject {
     
 }
 

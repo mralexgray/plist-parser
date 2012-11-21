@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PSTimer.h : NSObject {
+@interface PSTimer : NSObject {
     
     double start;
     double end;

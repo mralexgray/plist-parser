@@ -8,11 +8,37 @@
 
 #import "NSObject+ClassName.h"
 #import <objc/runtime.h>
-// 
-//#import "PSLogging.h"
+
 #import "FiR3FiOBJCReturnTypes.h"
 
 @implementation NSObject (ClassName)
+
+
+- (int)isContainerClass {
+    
+    if ( [self isKindOfClass:NSClassFromString(@"NSDictionary")] ||
+        [self isKindOfClass:NSClassFromString(@"NSArray")]) {
+        return 1;
+    }
+    
+    return 0;
+}
+
+- (int)isDictionary {
+    if ( [self isKindOfClass:NSClassFromString(@"NSDictionary")]) {
+        return 1;
+    }
+    return 0;
+}
+
+- (int)isArray {
+    if ( [self isKindOfClass:NSClassFromString(@"NSArray")]) {
+        return 1;
+    }
+    return 0;
+}
+
+
 
 - (NSString *)className {
     

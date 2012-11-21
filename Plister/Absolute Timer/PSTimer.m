@@ -8,7 +8,7 @@
 
 #import "PSTimer.h"
 
-@implementation PSTimer.h
+@implementation PSTimer
 
 - (id) init {
     self = [super init];
