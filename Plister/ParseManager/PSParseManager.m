@@ -13,7 +13,7 @@
 #import "NSObject+ClassName.h"
 #import "PSArrayAdditions.h"
 
-#define PLIST_TEST_PATH @"/Users/MilesAlden/Documents/Ensighten/Local/cg_adminOnly.plist"
+#define PLIST_TEST_PATH @"/Users/Espresso/Projects/Plister/plist-parser/Plister/cg.plist"
 #define COLOR BURGUNDY
 
 @implementation PSParseManager
@@ -23,7 +23,7 @@
     if ( self = [super init] ) {
         // Initial stuff
 //        self.logColor = BURGUNDY;
-        self.parseObject = [[PSParseObject alloc] init];
+        self.parseObject = [[PSParseObject alloc] initWithPath:PLIST_TEST_PATH];
 
     }
     
@@ -34,9 +34,9 @@
     
     // timer for the hell of it
     PSTimer *timer = [[PSTimer alloc] init];
-    
-    
-    NSArray *functions = @[@"parseBetter"];
+    NSArray *functions =    @[@"printDictionary",
+                            @"printJSON",
+                            @"printXML"];
     
     @try {
         for ( NSString *item in functions ) {
@@ -54,15 +54,56 @@
 }
 
 
+- (void)printDictionary {
+    Log(@"%@", [self.parseObject dictionary]);
+}
+
+- (void)printJSON {
+    Log(@"%@", [self.parseObject JSON]);
+}
+
+- (void)printXML {
+    Log(@"%@", [self.parseObject XML]);
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 - (void)parseBetter {
     
-    //    self.parseObject.str = @"<array><dict><dict><this></this><something></something></dict><key>A</key><string>AA</string></dict></array>";
+    
     NSError *err;
-    self.parseObject.str = [NSString stringWithContentsOfFile:PLIST_TEST_PATH encoding:NSUTF8StringEncoding error:&err];
+    NSString *xmlPlistFile = [self copyFile];
+    [self convertToXML_plist:xmlPlistFile];
+    NSData *data = [NSData dataWithContentsOfFile:xmlPlistFile];
+    
+    id plist = [NSPropertyListSerialization propertyListWithData:data
+                                                         options:NSPropertyListImmutable
+                                                          format:NULL
+                                                           error:&err];
+    if ( nil != plist ) {
+        Log(@"Parsed to dictionary");
+//        return;
+    }
+    
+    self.parseObject.str = [[NSString alloc] initWithBytes:[data bytes]
+                                                    length:[data length]
+                                                  encoding:NSUTF8StringEncoding];
+    
     if ( nil == self.parseObject.str ) {
-        Log(@"String to parse is nil.");
+        Log(@"String to parse is nil. Err: %@", err);
         return;
     }
     
@@ -75,6 +116,36 @@
     
     Log(@"output: \n%@\n", self.output);
 }
+ */
+
+- (void)removeXMLType {
+    
+    NSError *err;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"<?[^>]+?>"
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:&err];
+    NSTextCheckingResult *result = [regex firstMatchInString:self.parseObject.str
+                                                     options:NSRegularExpressionCaseInsensitive
+                                                       range:[self.parseObject.str range]];
+    
+    self.parseObject.str = [self.parseObject.str stringByReplacingCharactersInRange:result.range
+                                                                         withString:@""];
+}
+
+- (void)removeDocType {
+    
+    NSError *err;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"<!DOCTYPE[^>]+>"
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:&err];
+    NSTextCheckingResult *result = [regex firstMatchInString:self.parseObject.str
+                                                     options:NSRegularExpressionCaseInsensitive
+                                                       range:[self.parseObject.str range]];
+    
+    self.parseObject.str = [self.parseObject.str stringByReplacingCharactersInRange:result.range
+                                                                         withString:@""];
+}
+
 
 - (NSString *)getValueWithTweenRange:(NSRange)start end:(NSRange)end {
     

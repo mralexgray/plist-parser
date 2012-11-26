@@ -9,6 +9,7 @@
 #import "PSObject.h"
 #import "PSParseObject.h"
 
+
 @interface PSParseManager : PSObject
 
 

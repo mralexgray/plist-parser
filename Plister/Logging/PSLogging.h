@@ -81,7 +81,7 @@
 
 #import "PSLogger.h"
 #import "PSColorLogging.h"
-
+#import <stdarg.h>
 
 
 /**

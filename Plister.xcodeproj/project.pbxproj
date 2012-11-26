@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62A0098416632F1500980C68 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A0098316632F1500980C68 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		62A0098516632F1500980C68 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A0098316632F1500980C68 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7D273494165D2B78001DE6C4 /* PSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273461165D2B78001DE6C4 /* PSTimer.m */; };
 		7D273495165D2B78001DE6C4 /* PSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273461165D2B78001DE6C4 /* PSTimer.m */; };
 		7D273496165D2B78001DE6C4 /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273464165D2B78001DE6C4 /* PLAppDelegate.m */; };
@@ -61,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62A0098216632F1500980C68 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		62A0098316632F1500980C68 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		7D273460165D2B78001DE6C4 /* PSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTimer.h; sourceTree = "<group>"; };
 		7D273461165D2B78001DE6C4 /* PSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTimer.m; sourceTree = "<group>"; };
 		7D273463165D2B78001DE6C4 /* PLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 		7D27345E165D2B78001DE6C4 /* Plister */ = {
 			isa = PBXGroup;
 			children = (
+				62A0098216632F1500980C68 /* JSONKit.h */,
+				62A0098316632F1500980C68 /* JSONKit.m */,
 				7D27345F165D2B78001DE6C4 /* Absolute Timer */,
 				7D273462165D2B78001DE6C4 /* App Delegate */,
 				7D273465165D2B78001DE6C4 /* Categories */,
@@ -484,6 +490,7 @@
 				7D2734B2165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m in Sources */,
 				7D2734B4165D2B78001DE6C4 /* PSParseObject.m in Sources */,
 				7D2734B6165D2B78001DE6C4 /* PSObject.m in Sources */,
+				62A0098416632F1500980C68 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +513,7 @@
 				7D2734B3165D2B78001DE6C4 /* FiR3FiOBJCReturnTypes.m in Sources */,
 				7D2734B5165D2B78001DE6C4 /* PSParseObject.m in Sources */,
 				7D2734B7165D2B78001DE6C4 /* PSObject.m in Sources */,
+				62A0098516632F1500980C68 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +657,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Plister/Plister-Prefix.pch";
+				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
 				INFOPLIST_FILE = "PlisterTests/PlisterTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -664,7 +672,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Plister/Plister-Prefix.pch";
+				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
 				INFOPLIST_FILE = "PlisterTests/PlisterTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
