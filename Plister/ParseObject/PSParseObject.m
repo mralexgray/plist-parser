@@ -50,7 +50,7 @@
 
 
 - (NSString *)JSON {
-    return [NSJSONSerialization JSONObjectWithData:<#(NSData *)#> options:<#(NSJSONReadingOptions)#> error:<#(NSError *__autoreleasing *)#> ];
+    return [[self dictionary] JSONString];
 }
 
 - (NSString *)YAML {
@@ -119,17 +119,6 @@
     }
 }
 
-- (void)convertToJSON_plist:(NSString *)path {
-    
-    // Convert to JSON
-    NSString *command = [NSString stringWithFormat:@"plutil -convert json %@", path];
-    const char *cmd = [command cStringUsingEncoding:NSASCIIStringEncoding];
-    if ( (system( cmd )) ) {
-        Log(@"Fail");
-        return;
-    }
-
-}
 
 - (void)buildToString {
     

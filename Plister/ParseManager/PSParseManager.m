@@ -13,7 +13,8 @@
 #import "NSObject+ClassName.h"
 #import "PSArrayAdditions.h"
 
-#define PLIST_TEST_PATH @"/Users/Espresso/Projects/Plister/plist-parser/Plister/cg.plist"
+
+#define PLIST_TEST_PATH @"/Users/MilesAlden/Documents/Projects/Plister/Plister/Plister/cg.plist"
 #define COLOR BURGUNDY
 
 @implementation PSParseManager

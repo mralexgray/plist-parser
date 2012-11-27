@@ -8,6 +8,8 @@
 
 #import "PSObject.h"
 #import "JSONKit.h"
+#import <YAML/YAMLSerialization.h>
+
 
 @interface PSParseObject : PSObject
 
