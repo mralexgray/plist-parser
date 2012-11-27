@@ -50,8 +50,8 @@
 		7DA649771656BE40004D54C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA649571656BE40004D54C1 /* Cocoa.framework */; };
 		7DA6497F1656BE40004D54C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6497D1656BE40004D54C1 /* InfoPlist.strings */; };
 		7DA649821656BE40004D54C1 /* PlisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649811656BE40004D54C1 /* PlisterTests.m */; };
-		7DD15979166427F40079761E /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD6DA85166425BD00D1C35E /* YAML.framework */; };
-		7DD6DA87166425BD00D1C35E /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD6DA85166425BD00D1C35E /* YAML.framework */; };
+		7DD1F70616644F0400AF7E72 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1F70516644F0400AF7E72 /* YAML.framework */; };
+		7DD1F70716644F0400AF7E72 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1F70516644F0400AF7E72 /* YAML.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +112,7 @@
 		7DA6497E1656BE40004D54C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DA649801656BE40004D54C1 /* PlisterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlisterTests.h; sourceTree = "<group>"; };
 		7DA649811656BE40004D54C1 /* PlisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlisterTests.m; sourceTree = "<group>"; };
-		7DD6DA85166425BD00D1C35E /* YAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAML.framework; path = "../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug/YAML.framework"; sourceTree = "<group>"; };
+		7DD1F70516644F0400AF7E72 /* YAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAML.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA649581656BE40004D54C1 /* Cocoa.framework in Frameworks */,
-				7DD15979166427F40079761E /* YAML.framework in Frameworks */,
+				7DD1F70616644F0400AF7E72 /* YAML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +131,7 @@
 			files = (
 				7DA649761656BE40004D54C1 /* SenTestingKit.framework in Frameworks */,
 				7DA649771656BE40004D54C1 /* Cocoa.framework in Frameworks */,
-				7DD6DA87166425BD00D1C35E /* YAML.framework in Frameworks */,
+				7DD1F70716644F0400AF7E72 /* YAML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +331,7 @@
 		7DA649561656BE40004D54C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7DD6DA85166425BD00D1C35E /* YAML.framework */,
+				7DD1F70516644F0400AF7E72 /* YAML.framework */,
 				7DA649571656BE40004D54C1 /* Cocoa.framework */,
 				7DA649751656BE40004D54C1 /* SenTestingKit.framework */,
 				7DA649591656BE40004D54C1 /* Other Frameworks */,
@@ -629,6 +629,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
@@ -651,6 +652,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
@@ -672,6 +674,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
@@ -690,6 +693,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
