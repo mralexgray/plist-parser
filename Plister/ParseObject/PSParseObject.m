@@ -54,15 +54,26 @@
 }
 
 - (NSString *)YAML {
+    // YAML is broken
     
+    NSError *err;
+    id result = [YAMLSerialization YAMLWithData:[[self JSON] dataUsingEncoding:NSUTF8StringEncoding]
+                                        options:kYAMLReadOptionStringScalars
+                                          error:&err];
+    if ( err ) {
+        Log(@"YAML failed: %@", err);
+        return nil;
+    }
+    
+    return result;
 }
 
 - (NSString *)XML {
     return self.str;
 }
 
-- (NSString *)binary {
-    
+- (NSData *)binary {
+    return [NSData dataWithContentsOfFile:self.path];
 }
 
 - (NSDictionary *)dictionary {

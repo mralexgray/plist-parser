@@ -28,6 +28,19 @@
     return retVal;
 }
 
+- (BOOL)containsInsensitiveString: (NSString *)string
+{
+    // This could be very bad
+    // with large strings.
+    BOOL retVal;
+    NSRange range = [[self lowercaseString] rangeOfString:[string lowercaseString]];
+    if ( range.length < 1 ) retVal = NO;
+    else retVal = YES;
+    
+    return retVal;
+}
+
+
 - (NSRange)range {
     return NSMakeRange(0, self.length);
 }

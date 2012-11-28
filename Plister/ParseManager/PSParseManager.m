@@ -12,9 +12,10 @@
 #import "PSStringContains.h"
 #import "NSObject+ClassName.h"
 #import "PSArrayAdditions.h"
+#import "PSDictionaryAdditions.h"
 
 
-#define PLIST_TEST_PATH @"/Users/MilesAlden/Documents/Projects/Plister/Plister/Plister/cg.plist"
+#define PLIST_TEST_PATH @"/Users/Espresso/Projects/Plister/plist-parser/Plister/cg.plist"
 #define COLOR BURGUNDY
 
 @implementation PSParseManager
@@ -35,9 +36,7 @@
     
     // timer for the hell of it
     PSTimer *timer = [[PSTimer alloc] init];
-    NSArray *functions =    @[@"printDictionary",
-                            @"printJSON",
-                            @"printXML"];
+    NSArray *functions =    @[@"printDictionary"];
     
     @try {
         for ( NSString *item in functions ) {
@@ -56,7 +55,7 @@
 
 
 - (void)printDictionary {
-    Log(@"%@", [self.parseObject dictionary]);
+    Log(@"%@", [[self.parseObject dictionary] YAMLstring] );
 }
 
 - (void)printJSON {
@@ -65,6 +64,9 @@
 
 - (void)printXML {
     Log(@"%@", [self.parseObject XML]);
+}
+- (void)printYAML {
+    Log(@"%@", [self.parseObject YAML]);
 }
 
 

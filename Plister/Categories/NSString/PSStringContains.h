@@ -11,6 +11,7 @@
 @interface NSString (PSStringContains)
 
 - (BOOL)containsString: (NSString *)string;
+- (BOOL)containsInsensitiveString: (NSString *)string;
 - (NSRange)range;
 
 

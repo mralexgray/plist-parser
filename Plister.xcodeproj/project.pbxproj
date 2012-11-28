@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62535FEB1664517200618B33 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62535FEA1664517200618B33 /* YAML.framework */; };
+		62535FEC1664517300618B33 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62535FEA1664517200618B33 /* YAML.framework */; };
 		62A0098416632F1500980C68 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A0098316632F1500980C68 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		62A0098516632F1500980C68 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A0098316632F1500980C68 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7D273494165D2B78001DE6C4 /* PSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D273461165D2B78001DE6C4 /* PSTimer.m */; };
@@ -50,8 +52,6 @@
 		7DA649771656BE40004D54C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA649571656BE40004D54C1 /* Cocoa.framework */; };
 		7DA6497F1656BE40004D54C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6497D1656BE40004D54C1 /* InfoPlist.strings */; };
 		7DA649821656BE40004D54C1 /* PlisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA649811656BE40004D54C1 /* PlisterTests.m */; };
-		7DD1F70616644F0400AF7E72 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1F70516644F0400AF7E72 /* YAML.framework */; };
-		7DD1F70716644F0400AF7E72 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1F70516644F0400AF7E72 /* YAML.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62535FEA1664517200618B33 /* YAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAML.framework; path = "../../../Library/Developer/Xcode/DerivedData/YAML-esnmtcghfswosucbbtzmxgnaulcw/Build/Products/Debug/YAML.framework"; sourceTree = "<group>"; };
 		62A0098216632F1500980C68 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		62A0098316632F1500980C68 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		7D273460165D2B78001DE6C4 /* PSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTimer.h; sourceTree = "<group>"; };
@@ -112,7 +113,6 @@
 		7DA6497E1656BE40004D54C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DA649801656BE40004D54C1 /* PlisterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlisterTests.h; sourceTree = "<group>"; };
 		7DA649811656BE40004D54C1 /* PlisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlisterTests.m; sourceTree = "<group>"; };
-		7DD1F70516644F0400AF7E72 /* YAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAML.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA649581656BE40004D54C1 /* Cocoa.framework in Frameworks */,
-				7DD1F70616644F0400AF7E72 /* YAML.framework in Frameworks */,
+				62535FEB1664517200618B33 /* YAML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +131,7 @@
 			files = (
 				7DA649761656BE40004D54C1 /* SenTestingKit.framework in Frameworks */,
 				7DA649771656BE40004D54C1 /* Cocoa.framework in Frameworks */,
-				7DD1F70716644F0400AF7E72 /* YAML.framework in Frameworks */,
+				62535FEC1664517300618B33 /* YAML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +331,7 @@
 		7DA649561656BE40004D54C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7DD1F70516644F0400AF7E72 /* YAML.framework */,
+				62535FEA1664517200618B33 /* YAML.framework */,
 				7DA649571656BE40004D54C1 /* Cocoa.framework */,
 				7DA649751656BE40004D54C1 /* SenTestingKit.framework */,
 				7DA649591656BE40004D54C1 /* Other Frameworks */,
@@ -630,6 +630,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/YAML-esnmtcghfswosucbbtzmxgnaulcw/Build/Products/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
@@ -653,6 +654,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/YAML-esnmtcghfswosucbbtzmxgnaulcw/Build/Products/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
@@ -675,6 +677,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/YAML-esnmtcghfswosucbbtzmxgnaulcw/Build/Products/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
@@ -694,6 +697,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/YAML-gqudovfdnovztobvyutuabfxjsft/Build/Products/Debug\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/YAML-esnmtcghfswosucbbtzmxgnaulcw/Build/Products/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Plister/Other Sources/Plister-Prefix.pch";
