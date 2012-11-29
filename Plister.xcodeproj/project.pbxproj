@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621B9C5E1667F141003B62BF /* PSYAMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 621B9C5D1667F141003B62BF /* PSYAMLParser.m */; };
+		621B9C5F1667F141003B62BF /* PSYAMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 621B9C5D1667F141003B62BF /* PSYAMLParser.m */; };
 		62535FEB1664517200618B33 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62535FEA1664517200618B33 /* YAML.framework */; };
 		62535FEC1664517300618B33 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62535FEA1664517200618B33 /* YAML.framework */; };
 		62A0098416632F1500980C68 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A0098316632F1500980C68 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -65,6 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621B9C5C1667F141003B62BF /* PSYAMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSYAMLParser.h; path = YAMLParser/PSYAMLParser.h; sourceTree = "<group>"; };
+		621B9C5D1667F141003B62BF /* PSYAMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSYAMLParser.m; path = YAMLParser/PSYAMLParser.m; sourceTree = "<group>"; };
 		62535FEA1664517200618B33 /* YAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAML.framework; path = "../../../Library/Developer/Xcode/DerivedData/YAML-esnmtcghfswosucbbtzmxgnaulcw/Build/Products/Debug/YAML.framework"; sourceTree = "<group>"; };
 		62A0098216632F1500980C68 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		62A0098316632F1500980C68 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 			children = (
 				62A0098216632F1500980C68 /* JSONKit.h */,
 				62A0098316632F1500980C68 /* JSONKit.m */,
+				621B9C5C1667F141003B62BF /* PSYAMLParser.h */,
+				621B9C5D1667F141003B62BF /* PSYAMLParser.m */,
 				7D27345F165D2B78001DE6C4 /* Absolute Timer */,
 				7D273462165D2B78001DE6C4 /* App Delegate */,
 				7D273465165D2B78001DE6C4 /* Categories */,
@@ -497,6 +503,7 @@
 				7D2734B4165D2B78001DE6C4 /* PSParseObject.m in Sources */,
 				7D2734B6165D2B78001DE6C4 /* PSObject.m in Sources */,
 				62A0098416632F1500980C68 /* JSONKit.m in Sources */,
+				621B9C5E1667F141003B62BF /* PSYAMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +527,7 @@
 				7D2734B5165D2B78001DE6C4 /* PSParseObject.m in Sources */,
 				7D2734B7165D2B78001DE6C4 /* PSObject.m in Sources */,
 				62A0098516632F1500980C68 /* JSONKit.m in Sources */,
+				621B9C5F1667F141003B62BF /* PSYAMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
