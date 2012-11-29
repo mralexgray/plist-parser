@@ -14,8 +14,7 @@
 #import "PSArrayAdditions.h"
 #import "PSDictionaryAdditions.h"
 
-
-#define PLIST_TEST_PATH @"/Users/Espresso/Projects/Plister/plist-parser/Plister/cg.plist"
+#define PLIST_TEST_PATH @"/Users/MilesAlden/Documents/Projects/Plister/Plister/Plister/cg.plist"
 #define COLOR BURGUNDY
 
 @implementation PSParseManager
@@ -51,6 +50,7 @@
     
     [timer stopTimer];
     Log(@"Action completed in %0.5f seconds", [timer timeElapsedInSeconds]);
+    exit(0);
 }
 
 
